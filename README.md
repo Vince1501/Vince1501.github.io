@@ -17,3 +17,6 @@ Voor de berekening met vloeibaar chloor wordt Brenntag Chloor 12,5% Natriumhypoc
 >De berekeningen zijn slechts een inschatting en kunnen niet als 100% correct worden beschouwd! 
 >
 >Controleer zelf altijd of de berekeningen kloppen bij uw zwembad formaat volgens de etiketten van de gebruikte producten.
+
+
+[Om de website uit te testen kunt u hier klikken](https://zwembad.kainama.net)
