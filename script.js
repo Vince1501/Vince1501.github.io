@@ -4,9 +4,9 @@ document.getElementById("uitkomstcontainer").style.display = "none";
 
 
 function bereken() {
-    var inhoud = document.getElementById("inhoudZwembad").value;
-    var ph = document.getElementById("phWaarde").value;
-    var chloor = document.getElementById("chloorWaarde").value;
+    var inhoud = parseFloat(document.getElementById("inhoudZwembad").value);
+    var ph = parseFloat(document.getElementById("phWaarde").value);
+    var chloor = parseFloat(document.getElementById("chloorWaarde").value);
     var regen = document.getElementById("geregend").value
     var chloorSoort = document.getElementById("soortChloor").value
 
