@@ -41,7 +41,7 @@ function hoeveelheidChloor(inhoud, huidigChloor, chloorSoort) {
     if (chloorSoort === 'Poeder') {
         var benodigdppm = (3.0 - parseFloat(huidigChloor));
         var toevoegenChloor = (1.8 * inhoud) * benodigdppm;
-        toevoegenChloor = toevoegenChloor.toFixed(1);
+        toevoegenChloor = Math.round(toevoegenChloor);
 
         return toevoegenChloor + " gram";
     }
