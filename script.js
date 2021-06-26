@@ -16,10 +16,7 @@ function bereken() {
 
     var resultaat = parseFloat(inhoud) + parseFloat(ph) + parseFloat(chloor);
 
-    console.log(inhoud);
-    console.log(ph);
-    console.log(chloor);
-
+ 
 
 
     if (!isNaN(resultaat)) {
