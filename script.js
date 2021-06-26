@@ -10,6 +10,10 @@ function bereken() {
     var regen = document.getElementById("geregend").value
     var chloorSoort = document.getElementById("soortChloor").value
 
+    inhoud = inhoud.replace(/,/g, '.');
+    ph = ph.replace(/,/g, '.');
+    chloor = chloor.replace(/,/g, '.');
+
     var resultaat = parseFloat(inhoud) + parseFloat(ph) + parseFloat(chloor);
 
 
