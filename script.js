@@ -4,9 +4,9 @@ document.getElementById("uitkomstcontainer").style.display = "none";
 
 
 function bereken() {
-    var inhoud = document.getElementById("inhoudZwembad").value;
-    var ph = document.getElementById("phWaarde").value;
-    var chloor = document.getElementById("chloorWaarde").value;
+    var inhoud = parseFloat(document.getElementById("inhoudZwembad").value);
+    var ph = parseFloat(document.getElementById("phWaarde").value);
+    var chloor = parseFloat(document.getElementById("chloorWaarde").value);
     var regen = document.getElementById("geregend").value
     var chloorSoort = document.getElementById("soortChloor").value
 
@@ -45,7 +45,7 @@ function hoeveelheidChloor(inhoud, huidigChloor, chloorSoort) {
     if (chloorSoort === 'Poeder') {
         var benodigdppm = (3.0 - parseFloat(huidigChloor));
         var toevoegenChloor = (1.8 * inhoud) * benodigdppm;
-        toevoegenChloor = toevoegenChloor.toFixed(1);
+        toevoegenChloor = Math.round(toevoegenChloor);
 
         return toevoegenChloor + " gram";
     }
