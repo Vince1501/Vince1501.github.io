@@ -1,7 +1,7 @@
 document.getElementById("uitkomstcontainer").style.display = "none";
 //document.getElementById("uitkomstcontainer").style.visibility = "collapse";
 
-
+document.getElementById("year").innerHTML = new Date().getFullYear();
 
 function bereken() {
     var inhoud = document.getElementById("inhoudZwembad").value;
